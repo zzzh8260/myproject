@@ -1,0 +1,14 @@
+# --- 忽略系统垃圾 ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- 忽略运行结果和压缩包 ---
+*.zip
+output/
+
+# --- 忽略环境工具 (micromamba) ---
+bin/
+
+# --- 忽略其他大文件 ---
+data/
